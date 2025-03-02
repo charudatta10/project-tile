@@ -1,0 +1,35 @@
+[
+    {
+      "title": "Project 1",
+      "description": "Short description of project 1",
+      "tech_stack": ["HTML", "CSS", "JavaScript"],
+      "comment": "Small comment about project 1",
+      "completed_date": "2023-03-01",
+      "link": "https://example.com/project1"
+    },
+    {
+      "title": "Project 2",
+      "description": "Short description of project 2",
+      "tech_stack": ["Python", "Flask", "Jinja2"],
+      "comment": "Small comment about project 2",
+      "completed_date": "2023-05-15",
+      "link": "https://example.com/project2"
+    },
+    {
+      "title": "Project 3",
+      "description": "Short description of project 1",
+      "tech_stack": ["HTML", "CSS", "JavaScript"],
+      "comment": "Small comment about project 1",
+      "completed_date": "2023-03-01",
+      "link": "https://example.com/project1"
+    },
+    {
+      "title": "Project 4",
+      "description": "Short description of project 2",
+      "tech_stack": ["Python", "Flask", "Jinja2"],
+      "comment": "Small comment about project 2",
+      "completed_date": "2023-05-15",
+      "link": "https://example.com/project2"
+    }
+  ]
+  
