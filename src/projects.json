@@ -1,59 +1,218 @@
 [
-    {
-      "title": "Project 1",
-      "description": "Short description of project 1",
-      "tech_stack": ["HTML", "CSS", "JavaScript"],
-      "comment": "Small comment about project 1",
-      "completed_date": "2023-03-01",
-      "link": "https://example.com/project1"
-    },
-    {
-      "title": "Project 2",
-      "description": "Short description of project 2",
-      "tech_stack": ["Python", "Flask", "Jinja2"],
-      "comment": "Small comment about project 2",
-      "completed_date": "2023-05-15",
-      "link": "https://example.com/project2"
-    },
-    {
-      "title": "Project 3",
-      "description": "Short description of project 1",
-      "tech_stack": ["HTML", "CSS", "JavaScript"],
-      "comment": "Small comment about project 1",
-      "completed_date": "2023-03-01",
-      "link": "https://example.com/project1"
-    },
-    {
-      "title": "Project 4",
-      "description": "Short description of project 2",
-      "tech_stack": ["Python", "Flask", "Jinja2"],
-      "comment": "Small comment about project 2",
-      "completed_date": "2023-05-15",
-      "link": "https://example.com/project2"
-    },
-    {
-      "title": "Project 2",
-      "description": "Short description of project 2",
-      "tech_stack": ["Python", "Flask", "Jinja2"],
-      "comment": "Small comment about project 2",
-      "completed_date": "2023-05-15",
-      "link": "https://example.com/project2"
-    },
-    {
-      "title": "Project 3",
-      "description": "Short description of project 1",
-      "tech_stack": ["HTML", "CSS", "JavaScript"],
-      "comment": "Small comment about project 1",
-      "completed_date": "2023-03-01",
-      "link": "https://example.com/project1"
-    },
-    {
-      "title": "Project 4",
-      "description": "Short description of project 2",
-      "tech_stack": ["Python", "Flask", "Jinja2"],
-      "comment": "Small comment about project 2",
-      "completed_date": "2023-05-15",
-      "link": "https://example.com/project2"
-    }
-  ]
-  
+  {
+    "title": "Project Tile",
+    "description": "A project display tool",
+    "tech_stack": ["Python", "Jinja2", "HTML"],
+    "comment": "An efficient way to showcase your projects",
+    "completed_date": "2025-03-01",
+    "link": "https://github.com/charudatta10/project-tile"
+  },
+  {
+    "title": "Charudatta10",
+    "description": "Personal repository",
+    "tech_stack": ["Markdown", "GitHub"],
+    "comment": "Collection of personal projects",
+    "completed_date": "2023-04-20",
+    "link": "https://github.com/charudatta10/charudatta10"
+  },
+  {
+    "title": "AI Trade",
+    "description": "Automated trading system",
+    "tech_stack": ["Python", "Ollama", "FastAPI", "YFianance","TextBlob", "Numpy","Pandas"],
+    "comment": "Uses AI, machine learning & APIs for trading with 15% margin gain",
+    "completed_date": "2025-02-28",
+    "link": "https://github.com/charudatta10/ai-trade"
+  },
+  {
+    "title": "Task Runner SDLC",
+    "description": "Task automation runner for python projects",
+    "tech_stack": ["Python", "Invoke"],
+    "comment": "Automates repetitive tasks, one place for all automation needs",
+    "completed_date": "2024-10-01",
+    "link": "https://github.com/charudatta10/task-runner-SDLC"
+  },
+  {
+    "title": "Notes",
+    "description": "Private Notes Repo",
+    "tech_stack": ["Markdown", "Python"],
+    "comment": "Organize notes efficiently",
+    "completed_date": "2024-10-15",
+    "link": "https://github.com/charudatta10/notes"
+  },
+  {
+    "title": "AI Chat",
+    "description": "AI-powered chatbot",
+    "tech_stack": ["Python", "Ollama", "FastAPI", "Jinja2", "HTML"],
+    "comment": "Conversational AI run locally 50% faster then conventional",
+    "completed_date": "2025-01-10",
+    "link": "https://github.com/charudatta10/ai_chat"
+  },
+  {
+    "title": "File Tagger",
+    "description": "Tag files for easy search",
+    "tech_stack": ["Python", "Invoke"],
+    "comment": "Enhances file organization",
+    "completed_date": "2024-09-25",
+    "link": "https://github.com/charudatta10/file-tagger"
+  },
+  {
+    "title": "SVG Generator",
+    "description": "Generate SVG graphics",
+    "tech_stack": ["Python", "Jinja2", "SVG"],
+    "comment": "Create scalable vector graphics",
+    "completed_date": "2024-07-18",
+    "link": "https://github.com/charudatta10/svg-generator"
+  },
+  {
+    "title": "Note Flow",
+    "description": "Workflow for note management",
+    "tech_stack": ["Python", "Flask"],
+    "comment": "Streamline note-taking process",
+    "completed_date": "2025-02-22",
+    "link": "https://github.com/charudatta10/note-flow"
+  },
+  {
+    "title": "Scripts",
+    "description": "Collection of useful scripts",
+    "tech_stack": ["Powershell", "Python"],
+    "comment": "Various automation scripts",
+    "completed_date": "2024-11-12",
+    "link": "https://github.com/charudatta10/scripts"
+  },
+  {
+    "title": "Template Project",
+    "description": "Project templates for various uses",
+    "tech_stack": ["Markdown", "HTML", "CSS"],
+    "comment": "Starter templates for projects",
+    "completed_date": "2024-08-03",
+    "link": "https://github.com/charudatta10/template-project"
+  },
+  {
+    "title": "Web Crawler",
+    "description": "Web scraping tool",
+    "tech_stack": ["Python", "BeautifulSoup"],
+    "comment": "Extract data from websites 10X faster",
+    "completed_date": "2023-10-29",
+    "link": "https://github.com/charudatta10/web-crawler"
+  },
+  {
+    "title": "Inbox",
+    "description": "Private Genesis forge for files and projects",
+    "tech_stack": ["Markdown", "Python"],
+    "comment": "Organize and filter files into projects",
+    "completed_date": "2023-02-28",
+    "link": "https://github.com/charudatta10/inbox"
+  },
+  {
+    "title": "Web3 Tools",
+    "description": "Tools for Web3 development",
+    "tech_stack": ["Python", "web3"],
+    "comment": "Enhance Web3 development, Blockchain implementation",
+    "completed_date": "2024-09-15",
+    "link": "https://github.com/charudatta10/web3-tools"
+  },
+  {
+    "title": "Portfolio",
+    "description": "Private Personal portfolio website",
+    "tech_stack": ["Markdown", "Mkdocs"],
+    "comment": "Showcase personal projects",
+    "completed_date": "2024-04-10",
+    "link": "https://github.com/charudatta10/portfolio"
+  },
+  {
+    "title": "Personal Portfolio",
+    "description": "Public personal portfolio",
+    "tech_stack": ["HTML", "CSS", "JavaScript"],
+    "comment": "Modern design portfolio",
+    "completed_date": "2024-03-15",
+    "link": "https://github.com/charudatta10/personal-portfolio"
+  },
+  {
+    "title": "Book Builder",
+    "description": "Create digital books",
+    "tech_stack": ["Python", "LaTeX"],
+    "comment": "Generate PDF books",
+    "completed_date": "2025-01-05",
+    "link": "https://github.com/charudatta10/book-builder"
+  },
+  {
+    "title": "Download Cleaner",
+    "description": "Clean and organize downloads",
+    "tech_stack": ["Python", "Invoke"],
+    "comment": "Automate download folder cleanup",
+    "completed_date": "2023-09-05",
+    "link": "https://github.com/charudatta10/download-cleaner"
+  },
+  {
+    "title": "Backup List",
+    "description": "Manage backup tasks",
+    "tech_stack": ["Python", "Invoke"],
+    "comment": "Organize and track backups",
+    "completed_date": "2022-08-20",
+    "link": "https://github.com/charudatta10/backup-list"
+  },
+  {
+    "title": "One-Time Share",
+    "description": "Secure file sharing tool",
+    "tech_stack": ["Python", "Flask"],
+    "comment": "Share files with limited access",
+    "completed_date": "2024-07-30",
+    "link": "https://github.com/charudatta10/one-time-share"
+  },
+  {
+    "title": "Link Net",
+    "description": "Manage and share links",
+    "tech_stack": ["Python", "Jinja2", "HTML","CSS"],
+    "comment": "Organize and share useful links",
+    "completed_date": "2024-06-10",
+    "link": "https://github.com/charudatta10/link-net"
+  },
+  {
+    "title": "Journal1",
+    "description": "Private journal Publication",
+    "tech_stack": ["Python", "PyTorch"],
+    "comment": "Private Journal Paper Publication",
+    "completed_date": "2020-03-25",
+    "link": "https://github.com/charudatta10/journal1"
+  },
+  {
+    "title": "Devanagari Handwriting Recognizer",
+    "description": "Recognize Devanagari script",
+    "tech_stack": ["Python", "OpenCV"],
+    "comment": "OCR for Devanagari handwriting 12X faster then conventional",
+    "completed_date": "2022-05-25",
+    "link": "https://github.com/charudatta10/devanagari-handwriting-recognizer"
+  },
+  {
+    "title": "Blogpost Generator",
+    "description": "Generate blog posts automatically",
+    "tech_stack": ["Python", "Ollama", "crewAI"],
+    "comment": "Automate blog post creation",
+    "completed_date": "2024-04-28",
+    "link": "https://github.com/charudatta10/blogpost-generator"
+  },
+  {
+    "title": "Single Page Wiki",
+    "description": "Single page wiki application",
+    "tech_stack": ["JavaScript", "HTML","Alpine"],
+    "comment": "Create and manage wiki pages",
+    "completed_date": "2024-11-15",
+    "link": "https://github.com/charudatta10/single-page-wiki"
+  },
+  {
+    "title": "PGAN-DNN",
+    "description": "Deep learning project",
+    "tech_stack": ["Python", "Keras", "TensorFlow"],
+    "comment": "Generative Adversarial Network",
+    "completed_date": "2023-01-05",
+    "link": "https://github.com/charudatta10/PGAN-DNN"
+  },
+  {
+    "title": "One-Time Secret",
+    "description": "Share secrets securely",
+    "tech_stack": ["Python", "Flask"],
+    "comment": "Securely share sensitive information",
+    "completed_date": "2022-09-10",
+    "link": "https://github.com/charudatta10/one-time-secret"
+  }
+]
