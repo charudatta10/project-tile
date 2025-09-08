@@ -1,42 +1,54 @@
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 16px;
-    margin: 16px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(33.333% - 32px); /* Adjust to fit 3 cards per row */
-    box-sizing: border-box;
-    border-color: #000; /* Static colored border */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 5px rgba(84, 5, 231, 0.827);
+  flex: 1 1 calc(33.333% - 32px); /* Adjust to fit 3 cards per row */
+  box-sizing: border-box;
+  border-color: #000; /* Static colored border */
+  background: rgba(92, 9, 169, 0.296); /* Transparent */
+  backdrop-filter: blur(60px); /* Frosted glass effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+.card:active {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(1.6);
+  box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.5);
+  z-index: 10;
+  backdrop-filter: blur(2px);
+}
+
 .card h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 .card ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 .card a {
-    display: inline-block;
-    margin-top: 8px;
-    text-decoration: none;
-    color: #007BFF;
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #007bff;
 }
 @media (max-width: 768px) {
-    .card {
-        flex: 1 1 calc(50% - 32px); /* Adjust to fit 2 cards per row */
-    }
+  .card {
+    flex: 1 1 calc(50% - 32px); /* Adjust to fit 2 cards per row */
+  }
 }
 @media (max-width: 480px) {
-    .card {
-        flex: 1 1 calc(100% - 32px); /* Adjust to fit 1 card per row */
-    }
+  .card {
+    flex: 1 1 calc(100% - 32px); /* Adjust to fit 1 card per row */
+  }
 }
