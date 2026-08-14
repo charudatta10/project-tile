@@ -1,6 +1,7 @@
 # project-tile
 
 <!-- Badges: Project Status GitHub -->
+![Version](https://img.shields.io/github/v/release/charudatta10/project-tile)
 ![license](https://flat.badgen.net/static/license/GPL-3.0/blue)
 ![release](https://flat.badgen.net/github/release/charudatta10/project-tile)
 ![commits](https://flat.badgen.net/github/commits/charudatta10/project-tile)
@@ -17,6 +18,10 @@
 ## Documentation
 
 Showecase your projects as tiles  
+
+## What is this?
+
+project-tile is a small Python tool that renders a list of your projects as a static HTML page of colorful tiles. It reads project metadata from a JSON file, assigns each tile a random color, and generates a deployable output page, ready to be published on GitHub Pages.
 
 ## Features
 
@@ -42,6 +47,22 @@ cd project-tile
 ```bash
 invoke
 ```
+
+## Usage
+
+Generate the project tile page from the CLI:
+
+```bash
+invoke
+```
+
+Or run the generator directly:
+
+```bash
+python src/tile.py
+```
+
+This reads `src/projects.json` and writes the rendered tiles to `src/output.html`.
 
 ## Contributing
 
