@@ -1,5 +1,10 @@
 # project-tile
 
+<p align="center">
+  <img src="assets/cover.png" alt="project-tile" width="800"/>
+</p>
+
+
 <!-- Badges: Project Status GitHub -->
 ![Version](https://img.shields.io/github/v/release/charudatta10/project-tile)
 ![license](https://flat.badgen.net/static/license/GPL-3.0/blue)
